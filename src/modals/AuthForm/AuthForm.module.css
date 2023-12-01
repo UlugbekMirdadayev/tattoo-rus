@@ -1,0 +1,28 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(36, 30, 12);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.input {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 2px solid rgb(211, 210, 206);
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    line-height: 1.15;
+}
+
+.error_alert {
+    color: rgb(222, 33, 4);
+    font-size: 12px;
+    padding-left: 6px;
+}
